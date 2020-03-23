@@ -1,6 +1,8 @@
 program TBD2Proyecto3;
 
-uses conexion;
+uses  conexion;
+
+
 
 {------------------------------------------------------}
 function funcionMod (dividendo,divisor:integer):integer;
@@ -84,8 +86,9 @@ var
 opcion: integer;
 resultado: integer;
 resultadoString: String;
+
+
 begin
-{test_odbc_dsnless('prueba de conexion','Server=localhost', 'User=SYSDBA', 'Password=masterkey', 'Database=C:\Users\alberto jose lopez\Desktop\uni\tri 9\Teoria de base de datos 2\segundo parcial\lazarus Proyecto en pascal\FBDB.GDB');    }
 opcion:=0;
 while(opcion<>13)do
 	begin
