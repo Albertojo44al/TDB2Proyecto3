@@ -1,0 +1,106 @@
+eclare external function MOD
+integer, integer
+returns
+integer by value
+entry_point 'Modulo' module_name 'functions.dll';
+
+select MOD(3, 2) from rdb$database;
+-------------------
+
+declare external function DEC2BIN
+integer
+returns
+integer by value
+entry_point 'dec2bin' module_name 'functions.dll';
+
+select DEC2BIN(12) from rdb$database;
+-------------------
+declare external function DEC2BIN
+integer
+returns
+integer by value
+entry_point 'dec2bin' module_name 'functions.dll';
+
+-------------------
+
+declare external function TRIM
+cstring(256), cstring(64)
+returns
+cstring(256) free_it
+entry_point 'trimc' module_name 'functions.dll';
+
+select TRIM('ahola','a') from rdb$database;
+-------------------
+
+declare external function DEC2HEX
+integer
+returns
+cstring(256) free_it
+entry_point 'dec2hex' module_name 'functions.dll';
+
+select f_dec2hex(827) from rdb$database;
+-------------------
+
+declare external function HEX2DEC
+cstring(256) 
+returns
+integer by value
+entry_point 'hex2dec' module_name 'functions.dll';
+
+select HEX2DEC('33B') from rdb$database;
+ -------------------
+
+declare external function C2F
+decimal 
+returns
+decimal by value
+entry_point 'c2f' module_name 'functions.dll';
+
+select C2F(30) from rdb$database;
+
+---------------------
+
+declare external function F2C
+decimal 
+returns
+decimal by value
+entry_point 'f2c' module_name 'functions.dll';
+
+select F2C(86) from rdb$database;
+
+-----------------------
+
+declare external function PV7
+integer, integer, integer 
+returns
+integer by value
+entry_point 'PV' module_name 'functions.dll';
+
+select PV(500,5,5) from rdb$database;
+
+-----------------------
+declare external function COMPARESTRING
+cstring(256),cstring(256)
+returns
+integer by value
+entry_point 'compare' module_name 'functions.dll';
+
+select COMPARESTRING('hola','adios') from rdb$database;
+-----------------------
+
+declare external function FACTORIAL
+integer
+returns
+integer by value
+entry_point 'factorial' module_name 'functions.dll';
+
+select FACTORIAL(5) from rdb$database;
+
+------------------------
+declare external function MID
+cstring(256), integer, integer
+returns
+cstring(256) free_it
+entry_point 'MID' module_name 'functions.dll';
+
+select MID('ventilador',1,5) from rdb$database;

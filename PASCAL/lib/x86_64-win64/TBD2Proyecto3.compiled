@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<CONFIG>
-  <Compiler Value="C:\lazarus\fpc\3.0.4\bin\x86_64-win64\fpc.exe" Date="1331391477"/>
-  <Params Value=" -MObjFPC -Scghi -O1 -g -gl -l -vewnhibq &quot;-FiC:\Users\alberto jose lopez\Desktop\uni\tri 9\Teoria de base de datos 2\segundo parcial\TDB2Proyecto3\TDB2ProyectoFinal\PASCAL\lib\x86_64-win64&quot; &quot;-FuC:\Users\alberto jose lopez\Desktop\uni\tri 9\Teoria de base de datos 2\segundo parcial\TDB2Proyecto3\TDB2ProyectoFinal\PASCAL\&quot; &quot;-FUC:\Users\alberto jose lopez\Desktop\uni\tri 9\Teoria de base de datos 2\segundo parcial\TDB2Proyecto3\TDB2ProyectoFinal\PASCAL\lib\x86_64-win64\&quot; &quot;-FEC:\Users\alberto jose lopez\Desktop\uni\tri 9\Teoria de base de datos 2\segundo parcial\TDB2Proyecto3\TDB2ProyectoFinal\PASCAL\&quot; &quot;-oC:\Users\alberto jose lopez\Desktop\uni\tri 9\Teoria de base de datos 2\segundo parcial\TDB2Proyecto3\TDB2ProyectoFinal\PASCAL\TBD2Proyecto3.exe&quot; TBD2Proyecto3.pas"/>
-</CONFIG>
